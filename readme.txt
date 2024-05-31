@@ -15,7 +15,7 @@ So based on the results of heads vs tails, the model classifies the data to eith
 If the percent likelihood is smaller than specified, then it returns that it needs more data.
 
 This could quite easily be done using hypothesis testing, this program actually performs worse than hypothesis testing 
-due to it not being able to extrapolate data very well to more samples but I wanted to practice training a model and it's more fun.
+due to it not being able to extrapolate data very well to more throws but I wanted to practice training a model and it's more fun.
 
 The program is intentionally designed to be quite heavily customisable, so you can alter the parameters of functions etc to your liking. 
 So you can change the amount of samples generated, the maximum and minimum amount of throws in each sample, the probability that cheaters have of getting heads etc.
