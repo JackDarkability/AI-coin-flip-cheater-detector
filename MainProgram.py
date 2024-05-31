@@ -36,11 +36,11 @@ def gameLoop(model, needMoreDataProbability=0.8):
         print(output)
 
 
-def writeResults(fieldNames, results, filename="records.csv"):
+def writeResults(fieldNames, results, fileName="records.csv"):
     """
     Write results to csv file
     """
-    f = open(filename, "w", newline="")
+    f = open(fileName, "w", newline="")
     writer = csv.DictWriter(f, fieldnames=fieldNames)
     writer.writeheader()
     for row in results:
